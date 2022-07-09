@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: gray;
+}
+
+.photo-contact {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.contact-btn {
+    width: 50%;
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.contact-btn:hover {
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+
+.right-container {
+    left: 400px;
+    position: absolute;
+}
+
+.top-bar {
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 1.3rem;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.list-menu {
+    float: right;
+    padding-right: 50px;
+}
+
+#profile {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+#experience {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+#achievments {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 250px;
+}
